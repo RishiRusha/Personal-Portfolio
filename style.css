@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Oleo+Script+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Koulen&family=Roboto+Mono:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Proza+Libre&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(173, 173, 173);
+    width: 250px;
+    height: 98vh;
+    font-family: 'Inconsolata', monospace;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav {
+    padding: 20px;
+}
+
+.sidebar nav li {
+    font-family: 'Patrick Hand', cursive;
+    list-style: none;
+    font-size: 25px;
+    padding: 25px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    background-color: white;
+    width: 80vw;
+}
+
+.Container {
+    display: flex;
+}
+
+.info{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.hello{
+    font-size: 35px;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.name{
+    font-family: 'Roboto Slab', serif;
+    font-size: 40px;
+    width: bold;
+}
+
+.intro{
+    font-size: 18px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.link{
+    font-size: 18px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.button button{
+    font-family: 'Shadows Into Light', cursive;
+    padding: 9px 15px;
+    border-radius: 22px;
+    color: black;
+    font-weight: bold;
+    background-color: rgb(0, 255, 242);
+    font-size: 15px;
+    margin: 0 3 px;
+    cursor: pointer;
+}
+
+.button button:hover{
+    background-color: bisque;
+    color: black;
+}
+
+.button{
+    margin-top: 34px;
+}
+
+
+.infocontainer{
+    margin: 65px 0 20px 80px;
+    background-color: rgb(238, 206, 206);
+    height: 80vh;
+    width: 80vw;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.image img{
+    height: 80vh;
+    align-items: Right;
+}
+
+.contactform{
+    font-size: 20px;
+    padding: 0 34px;
+    padding-top: 30px;
+    font-family: 'Inconsolata', monospace;
+}
+.contactform h1{
+    padding: 12px;
+}
+.contactform div{
+    padding: 7px 0;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+}
+#emailHelp{
+    font-size: 15px;
+    color: rgb(49, 27, 253);
+    margin: 0 5px;
+}
+.contactform form div input{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 20px;;
+    margin: 4px 0;
+}
+
+.introhead{
+    font-size: 40px;
+    padding: 0 34px;
+    padding-top: 30px;
+    color: brown;
+    font-family: 'Patrick Hand', cursive;
+    width: bold;
+}
+.Intro{
+    font-size: 20px;
+    padding: 0 34px;
+    padding-top: 10px;
+    font-family: 'Inconsolata', monospace;
+}
+.sub{
+    font-size: 30px;
+    padding: 0 70px;
+    color: rgb(255, 163, 24);
+    font-family: 'Inconsolata', monospace;
+    width: bold;
+}
+.subName{
+    font-size: 20px;
+    padding: 0 80px;
+    font-family: 'Inconsolata', monospace;
+}
+.lang{
+    font-size: 30px;
+    padding: 0 70px;
+    color: rgb(255, 163, 24);
+    font-family: 'Inconsolata', monospace;
+    width: bold;
+}
+.langName{
+    font-size: 20px;
+    padding: 0 80px;
+    font-family: 'Inconsolata', monospace;
+}
+.dream{
+    font-size: 30px;
+    padding: 0 70px;
+    color: rgb(255, 163, 24);
+    font-family: 'Inconsolata', monospace;
+    width: bold;
+}
+.langName{
+    font-size: 20px;
+    padding: 0 80px;
+    font-family: 'Inconsolata', monospace;
+}
+.Cvbutton{
+    margin-top: 34px;
+    padding: 0 70px;
+}
+.Cvbutton button{
+    font-family: 'Shadows Into Light', cursive;
+    padding: 9px 15px;
+    border-radius: 22px;
+    color: black;
+    font-weight: bold;
+    background-color: rgb(0, 255, 242);
+    font-size: 15px;
+    margin: 0 3 px;
+    cursor: pointer;
+}
+
+.Cvbutton button:hover{
+    background-color: bisque;
+    color: black;
+}
+.cvv{
+    font-family: 'Inconsolata', monospace;
+}
+.contact-no{
+    font-family: 'Inconsolata', monospace;
+    font-size: 12px;
+    padding: 0 50px;
+    width: bold;
+}
+.hobbycontainer{
+    margin: 50px;
+  
+    height: 85vh;
+    width: 70vw;
+    display: flex;
+    justify-items: space-around;
+}
+.every{
+    font-family: 'Koulen', cursive;
+    font-size: 30px;
+    padding: 0 25px;
+    text-align: justify;
+}
+.mypic img{
+    float: right;
+    size: 260px;
+    height: 200px;
+    padding: 150px 0 0 2px;
+    display: flex;
+}
+.forme{
+    
+    font-size: 20px;
+    padding: 0 25px;
+    text-align: justify;
+    width: bold;
+}
+.yes{
+    
+    font-size: 20px;
+    padding: 0 25px;
+    text-align: justify;
+    width: bold;
+}
+.fevthing{
+    font-size: 24px;
+    padding: 0 60px;
+    padding-top: 7px;
+    text-align: justify;
+    width: bold;
+    color: rgb(8, 128, 128);
+    font-family: 'Koulen', cursive;
+}
+.subfev{
+    font-size: 20px;
+    padding: 0 25px;
+    text-align: justify;
+    width: bold;
+}
+.Yt button{
+    margin-top: 15px;
+}
+.Yt button{
+    font-family: 'Shadows Into Light', cursive;
+    padding: 9px 15px;
+    border-radius: 22px;
+    color: black;
+    font-weight: bold;
+    background-color: rgb(0, 255, 242);
+    font-size: 15px;
+    margin: 0 3 px;
+    cursor: pointer;
+}
+.Yt button:hover{
+    background-color: bisque;
+    color: black;
+}
+.skillmain{
+    height: 80vh;
+    width: 80vw;
+}
+.introskill h2{
+    font-family: 'Proza Libre', sans-serif;
+    margin: 0 34px -30px;
+    font-size: 30px;
+}
+.introskill p{
+    font-family: 'Source Code Pro', monospace;
+    margin: 34px;
+    font-weight: 700;
+}
+.skill{
+    width: 240px;
+    height: 6px;
+    margin: 20px;
+    background-color: rgb(9, 43, 196);
+}
+.skillcontainer{
+    margin: 20px;
+}
+.introskill h1{
+    font-size: 15px;
+    padding: 5px 0 0 18px;
+}
+.skill1{
+    width: 300px;
+    height: 6px;
+    margin: 20px;
+    background-color: rgb(9, 43, 196);
+}
+.skill2{
+    width: 125px;
+    height: 6px;
+    margin: 20px;
+    background-color: rgb(9, 43, 196);
+}
+.skill3{
+    width: 100px;
+    height: 6px;
+    margin: 20px;
+    background-color: rgb(9, 43, 196);
+}
+.skill4{
+    width: 200px;
+    height: 6px;
+    margin: 20px;
+    background-color: rgb(9, 43, 196);
+}
+.skill5{
+    width: 150px;
+    height: 6px;
+    margin: 20px;
+    background-color: rgb(9, 43, 196);
+}
+.line{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.cross{
+    margin-left: 184px;
+    cursor: pointer;
+}
+.sidebarGo{
+    transform: translate(-443px, 8px);
+    position: absolute;
+}
